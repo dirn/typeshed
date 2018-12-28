@@ -1,5 +1,9 @@
 # Stub for termcolor: https://pypi.python.org/pypi/termcolor
-from typing import Any, Iterable, Optional, Text
+from typing import Any, Dict, Iterable, Optional, Text
+
+ATTRIBUTES = Dict[Text, int]
+COLORS = Dict[Text, int]
+HIGHLIGHTS = Dict[Text, int]
 
 
 def colored(
